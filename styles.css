@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+body {
+	font-family: Georgia;
+	font-size: 18px;
+	background-color: whitesmoke;
+	}
+.divTopPageMessage {
+	}
+.divPagetopTitle {
+	font-family: "Oswald";
+	font-size: 54px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: -0.05em;
+	line-height: 1.1;
+	margin-top: 25px;
+	margin-bottom: 0;
+	text-align: center;
+	}
+.divPageBody {
+	width: 600px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border: 1px solid silver;
+	}
+.divFeedTitle, .spFeedUpdateTime {
+	background-color: white;
+	}
+.divPageBody p {
+	font-family: "Georgia";
+	font-size: 18px;
+	line-height: 140%;
+	}
+.divRiverContainer {
+	}
+.divRiverDisplay {
+	padding-bottom: 30px;
+	}
+.divFooter {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 500px;
+	}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.divPageTop {
+		margin-top: 5px;
+		width: 90%;
+		margin-left: 8%;
+		margin-right: 2%;
+		}
+	.divPageBody {
+		width: 90%;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		background-color: inherit;
+		margin-top: 0px;
+		margin-bottom: 300px;
+		}
+	.divFeedTitle, .spFeedUpdateTime {
+		background-color: inherit;
+		}
+	.divRiverSection {
+		border-top: 0px;
+		}
+	.divRiverDisplay {
+		width: 90%;
+		margin-left: 5%;
+		}
+	}
